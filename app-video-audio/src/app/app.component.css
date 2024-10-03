@@ -15,9 +15,10 @@ video {
 }
 
 .button-container {
-    position: absolute;
-    left: 5rem;
-    bottom: 50rem;
+    position: relative;
+    right: 5rem;
+    top:2rem
+    /* bottom: 50rem; */
     /* display: flex;
     flex-direction: column;
     justify-content: center; */
