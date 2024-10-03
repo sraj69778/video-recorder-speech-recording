@@ -1,0 +1,25 @@
+.video-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+video {
+
+    height: 100vh;
+    width: 60%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.button-container {
+    position: absolute;
+    left: 5rem;
+    bottom: 50rem;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+
+}

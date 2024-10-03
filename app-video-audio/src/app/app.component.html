@@ -1,0 +1,13 @@
+<div class="video-container">
+  <video #target class="video-js" autoplay [src]="src"></video>
+
+  <div class="speech-text">
+    <label for="exampleFormControlTextarea1" class="form-label">Speech to text</label>
+    <textarea class="form-control" rows="30" cols="50" #speechToText></textarea>
+  </div>
+  <div class="button-container">
+    <button class="btn btn-primary" (click)="startListening()" [disabled]="disableButton">Speak</button>
+    <button class="btn btn-danger" (click)="stopListening()" [disabled]="!disableButton">Stop</button>
+
+  </div>
+</div>
